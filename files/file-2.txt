@@ -1,0 +1,9 @@
+Hey guys,
+
+This is my second file. 
+
+## Markdown
+
+I just added Markdown syntax to this shit.
+
+*BOOM*
