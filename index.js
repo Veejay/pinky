@@ -6,7 +6,7 @@ const chalk = require('chalk');
 const Pinky = require("./pinky.js");
 
 q.all(
-  [1,2,3,4].map((i, index) => {
+  [1,2,3].map((i, index) => {
     return Pinky.readFile(`files/file-${i}.txt`)
   })
 ).

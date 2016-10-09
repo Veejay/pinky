@@ -1,9 +1,7 @@
 const q = require('q');
 const fs = require('fs');
 
-var exports = module.exports = {};
-
-module.exports = {
+var exports = module.exports = {
   readFile: (path, encoding = 'utf-8') => {
     let d = q.defer();
     fs.readFile(path, encoding, (error, contents) => {
