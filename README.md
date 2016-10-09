@@ -1,10 +1,12 @@
 # Pinky
 
 ## Raison d'être
-Those are small exercises to be better acquainted with server-side / NodeJS programming.
+This is a small exercise for me to get better acquainted with server-side / NodeJS programming.
 The first thing that I found kind of strange with server-side JS is that unlike using 
 that very same language in the browser, the programming interfaces and guidelines are 
-not as well defined. The textbook NodeJS programs usually rely heavily on callbacks.
+not as well defined (in the way that there is a feeling that NodeJS being a recent 
+thing means that the dust is still settling in terms of philosophy). 
+The textbook NodeJS programs usually rely heavily on callbacks.
 
 While this has helped tremendously with organizing programs and think in an asynchronous
 mindset, this doesn't really integrate smoothly with more recent Promise-based libraries
