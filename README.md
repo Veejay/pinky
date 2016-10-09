@@ -1,16 +1,10 @@
 # Pinky
 
 ## Raison d'être
-This is a small exercise for me to get better acquainted with server-side / NodeJS programming.
-The first thing that I found kind of strange with server-side JS is that unlike using 
-that very same language in the browser, the programming interfaces and guidelines are 
-not as well defined (in the way that there is a feeling that NodeJS being a recent 
-thing means that the dust is still settling in terms of philosophy). 
-The textbook NodeJS programs usually rely heavily on callbacks.
-
-While this has helped tremendously with organizing programs and think in an asynchronous
-mindset, this doesn't really integrate smoothly with more recent Promise-based libraries
-and code in general.
+Historic NodeJS libraries are mostly callback-based. 
+Modern NodeJS programs rely more heavily on `Promise` construct for asynchronous 
+constructs. This library aims to expose `Promise`-based file system calls so that
+it all works nicely together. 
 
 ## The library
 It's actually just one function built out of `fs.readFile` and Kris Kowal's excellent `q` 
@@ -25,3 +19,7 @@ I might add to that library in the future if there are patterns emerging from th
 I might want to better segment the interface exposed by `Pinky`  with sub-namespaces like 
 `Pinky.fs`, `Pinky.http`. I'll have to check NodeJS's best practices in more depth to see if that
 makes sense.
+
+## TODO
+
+Explore `BaconJS` and `HighlandJS`, as was mentioned in Pamela Selle's talk at StrangeLoop.
